@@ -27,7 +27,7 @@ void ParticleFilter::init(double x, double y, double theta, double std[]) {
     //   method (and others in this file).
 
     if (is_initialized) return;
-    num_particles = 100;
+    num_particles = 20;
     
     default_random_engine gen;
     double std_x = std[0];
